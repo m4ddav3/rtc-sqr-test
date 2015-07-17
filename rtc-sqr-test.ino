@@ -22,7 +22,6 @@ void setup() {
 
   pinMode(LED, OUTPUT);
   attachInterrupt(INTERRUPT, update_vals, RISING);
-
 }
 
 void loop() {
